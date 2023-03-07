@@ -7,7 +7,7 @@ export default function Footer() {
       <Container className="d-flex flex-column">
         <ul className="footer__nav d-flex flex-wrap">
           <li className="footer__item">
-            <a className="footer__link" a href="index.html">
+            <a className="footer__link" a href="About.html">
               About
             </a>
           </li>
@@ -22,7 +22,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="footer__item">
-            <a className="footer__link" a href="contactUs.html">
+            <a className="footer__link" a href="contact.html">
               Contact Us
             </a>
           </li>

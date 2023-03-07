@@ -26,24 +26,8 @@ export default function Team() {
             <a
               style={{ borderRadius: "100%" }}
               className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen Twitter Profile"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen Facebook Profile"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen LinkedIn Profile"
+              href="https://www.linkedin.com/in/sizwe-mkhabela-90240520a/" target="_blank"
+              aria-label="Sizwe Mkhabela LinkedIn Profile"
             >
               <i className="fab fa-linkedin-in"></i>
             </a>
@@ -57,29 +41,13 @@ export default function Team() {
               alt="..."
               style={{ height: "200px", width: "200px", objectFit: "cover" }}
             />
-            <h4 style={{ color: "#d46a6a" }}>Nondumiso Mswell</h4>
+            <h4 style={{ color: "#d46a6a" }}>Nondumiso Msweli</h4>
             <p className="text-muted1">Chief Operations Officer</p>
             <a
               style={{ borderRadius: "100%" }}
               className="btn btn-dark btn-social mx-2"
               href="#!"
-              aria-label="Diana Petersen Twitter Profile"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen Facebook Profile"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen LinkedIn Profile"
+              aria-label="Nondumiso Msweli LinkedIn Profile"
             >
               <i className="fab fa-linkedin-in"></i>
             </a>
@@ -98,24 +66,8 @@ export default function Team() {
             <a
               style={{ borderRadius: "100%" }}
               className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen Twitter Profile"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen Facebook Profile"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              style={{ borderRadius: "100%" }}
-              className="btn btn-dark btn-social mx-2"
-              href="#!"
-              aria-label="Diana Petersen LinkedIn Profile"
+              href="https://www.linkedin.com/in/greatman-hove-289185a7/" target="_blank"
+              aria-label="Greatman Hove LinkedIn Profile"
             >
               <i className="fab fa-linkedin-in"></i>
             </a>

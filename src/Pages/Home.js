@@ -15,8 +15,7 @@ export default function Home() {
       <div style={{ padding: "2rem" }} className="blurred-background">
         <div className="blurred-text d-flex justify-content-center flex-column ">
           <h1 className="text-center">
-            Innovative construction solutions <br />
-            for modern living
+            Committed to <u>Superior</u> <u>Quality</u> and <u>Results</u><br/>
           </h1>
           <Container
             className="d-flex justify-content-center mt-3"
