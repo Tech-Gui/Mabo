@@ -6,7 +6,9 @@ export default function Services() {
   return (
     <>
       <div class="section__title d-flex justify-content-center flex-column">
-        <h2 class="section__description text-center">Services</h2>
+        <h2 class="section__description text-center" id="services">
+          Services
+        </h2>
         <h3 class="section__header text-center mb-5">
           Mabocap offers its clients the following services.
         </h3>

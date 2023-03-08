@@ -39,10 +39,23 @@ export default function Contact() {
   };
   return (
     <section id="contact">
-      <Row className=" d-flex align-items-stretch no-gutters">
-        <Col md={6} xs={12}>
-          <div style={{ color: "white" }}>
-            <div className="contact-thumb">
+      <Row className=" d-flex align-items-center justify-content-center">
+        <Col
+          md={6}
+          xs={12}
+          className="d-flex justify-content-start align-items-center"
+        >
+          <div
+            style={{
+              color: "white",
+              background: `url('img/image2.jpg') no-repeat center center fixed`,
+              backgroundSize: "cover",
+            }}
+          >
+            <div
+              className="contact-thumb"
+              style={{ background: "rgba(39,62,84,0.7)" }}
+            >
               <div className="wow fadeInUp contact-info" data-wow-delay="0.6s">
                 <h3 className="color-white">Visit our office</h3>
                 <p>
@@ -65,7 +78,11 @@ export default function Contact() {
         </Col>
         <Col md={6} xs={12}>
           <div className="contact-form">
-            <div className="wow fadeInUp section-title" data-wow-delay="0.2s">
+            <div
+              className="wow fadeInUp section-title"
+              data-wow-delay="0.2s"
+              style={{ color: "white" }}
+            >
               <h1 className="color-white">Say hello..</h1>
               <p className="color-white">
                 Leave a message and I will get back to you soon.

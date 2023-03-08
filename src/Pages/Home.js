@@ -11,11 +11,13 @@ export default function Home() {
       }}
       fluid
       className="d-flex justify-content-center align-items-center"
+      id="home"
     >
       <div style={{ padding: "2rem" }} className="blurred-background">
         <div className="blurred-text d-flex justify-content-center flex-column ">
           <h1 className="text-center">
-            Committed to <u>Superior</u> <u>Quality</u> and <u>Results</u><br/>
+            Committed to <u>Superior</u> <u>Quality</u> and <u>Results</u>
+            <br />
           </h1>
           <Container
             className="d-flex justify-content-center mt-3"
@@ -28,6 +30,7 @@ export default function Home() {
                 borderColor: "#d46a6a",
                 color: "#d46a6a",
               }}
+              href="#about"
             >
               Learn More
             </Button>{" "}
@@ -38,6 +41,7 @@ export default function Home() {
                 borderColor: "#d46a6a",
                 color: "#fff",
               }}
+              href="#contact"
             >
               Contact Us
             </Button>
