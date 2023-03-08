@@ -2,43 +2,16 @@ import React, { useState } from "react";
 import {
   Button,
   Card,
+  Carousel,
   Col,
   Container,
   Image,
   Modal,
   Row,
 } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import projects from "../data";
 
-const projects = [
-  {
-    name: "Project 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    status: "Completed",
-    image: "img/p2.jpeg",
-    images: ["img/p2.jpeg", "img/image3.jpg", "img/image4.jpg"],
-  },
-  {
-    name: "Project 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    status: "In Progress",
-    image: "img/p1.jpeg",
-    images: ["https://via.placeholder.com/600x400"],
-  },
-  {
-    name: "Project 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    status: "Completed",
-    image: "img/p3.jpeg",
-    images: ["https://via.placeholder.com/600x400"],
-  },
-];
-
-export default function Projects() {
+export default function Gallery() {
   const [showModal, setShowModal] = useState(false);
   const [carouselIndex, setCarouselIndex] = useState(0);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -53,19 +26,18 @@ export default function Projects() {
   };
 
   return (
-    <Container>
+    <Container className="mt-5">
       <Row className="mb-4">
         <Col>
-          <div class="section__title section__title--testimonials text-center">
-            <h2 class="section__description" id="projects">
-              Projects
-            </h2>
+          <div class="section__title text-center">
+            <h2 class="section__description">MABOCAP GALLERY</h2>
             <h3 class="section__header">
-              Below is a list of the current and completed projects.
+              Take a look at what we have been up to.
             </h3>
           </div>
         </Col>
       </Row>
+     
       <Row>
         {projects.map((project) => (
           <Col xs={12} md={6} lg={4} key={project.name}>
@@ -90,17 +62,6 @@ export default function Projects() {
           </Col>
         ))}
       </Row>
-      <Link
-        to="/gallery"
-        className="d-flex justify-content-end"
-        style={{ textDecoration: "none", color: "#d46a6a" }}
-      >
-        {" "}
-        <b>View all</b>{" "}
-        <span>
-          <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
-        </span>
-      </Link>
       <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>{selectedProject?.name}</Modal.Title>

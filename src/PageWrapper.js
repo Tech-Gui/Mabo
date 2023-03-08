@@ -17,7 +17,7 @@ export default function PageWrapper() {
       // style={{ position: "absolute" }}
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           {" "}
           <img
             src="img/logo.png"

@@ -12,17 +12,17 @@ export default function Footer() {
             </a>
           </li>
           <li className="footer__item">
-            <a className="footer__link" a href="careers.html">
+            <a className="footer__link" a href="/careers">
               Careers
             </a>
           </li>
           <li className="footer__item">
-            <a className="footer__link" a href="gallery.html">
+            <a className="footer__link" a href="/gallery">
               Gallery
             </a>
           </li>
           <li className="footer__item">
-            <a className="footer__link" a href="contact.html">
+            <a className="footer__link" a href="#contact">
               Contact Us
             </a>
           </li>
