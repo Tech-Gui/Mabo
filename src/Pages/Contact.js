@@ -98,7 +98,7 @@ export default function Contact() {
               >
                 <h1 className="color-white">Say hello..</h1>
                 <p className="color-white">
-                  Leave a message and I will get back to you soon.
+                  Leave a message and we will get back to you soon.
                 </p>
               </div>
 

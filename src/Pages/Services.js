@@ -27,14 +27,13 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/p4.jpeg') `,
               backgroundSize: "cover",
               textAlign: "center",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -45,8 +44,8 @@ export default function Services() {
             <Card.Body
               className="d-flex justify-content-center flex-column"
               style={{
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
                 textAlign: "center",
               }}
             >
@@ -69,7 +68,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -84,13 +83,12 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/aa.jpeg') `,
               backgroundSize: "cover",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -101,8 +99,8 @@ export default function Services() {
             <Card.Body
               className="d-flex justify-content-center flex-column"
               style={{
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
                 textAlign: "center",
               }}
             >
@@ -125,7 +123,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -140,13 +138,12 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/ph.jpeg') `,
               backgroundSize: "cover",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -158,21 +155,21 @@ export default function Services() {
               className="d-flex justify-content-center flex-column"
               style={{
                 textAlign: "center",
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
               }}
             >
               <p>
-                <b>Retail</b>
+                <b>Roller</b>
               </p>
               <p>
-                <b>Healthcare</b>
+                <b>Grader</b>
               </p>
               <p>
-                <b>Residential</b>
+                <b>Excavator</b>
               </p>
               <p>
-                <b>Warehouse and Industry</b>
+                <b>Tipper Truck</b>
               </p>
               <br />
               <Button
@@ -181,7 +178,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -196,13 +193,12 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/bm1.jpeg') `,
               backgroundSize: "cover",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -213,8 +209,8 @@ export default function Services() {
             <Card.Body
               className="d-flex justify-content-center flex-column"
               style={{
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
                 textAlign: "center",
               }}
             >
@@ -237,7 +233,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -252,13 +248,12 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/cv2.jpeg') `,
               backgroundSize: "cover",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -269,22 +264,22 @@ export default function Services() {
             <Card.Body
               className="d-flex justify-content-center flex-column"
               style={{
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
                 textAlign: "center",
               }}
             >
               <p>
-                <b>Retail</b>
+                <b>Industrial Plant</b>
               </p>
               <p>
-                <b>Healthcare</b>
+                <b>Rail Infrastructure</b>
               </p>
               <p>
-                <b>Residential</b>
+                <b>Water Infrastructure</b>
               </p>
               <p>
-                <b>Warehouse and Industry</b>
+                <b>Pipe Infrastructure</b>
               </p>
               <br />
               <Button
@@ -293,7 +288,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
@@ -308,13 +303,12 @@ export default function Services() {
           <Card
             style={{
               width: "100%",
-              background: `url('img/bc.jpeg') `,
               backgroundSize: "cover",
             }}
           >
             <Card.Header
               style={{
-                backgroundColor: "rgba(39, 62, 84)",
+                backgroundColor: "#b82c2c",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -325,8 +319,8 @@ export default function Services() {
             <Card.Body
               className="d-flex justify-content-center flex-column"
               style={{
-                color: "white",
-                background: "rgba(2,2,2,0.5)",
+                color: "black",
+                background: "white",
                 textAlign: "center",
               }}
             >
@@ -349,7 +343,7 @@ export default function Services() {
                   borderRadius: "0",
                   backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#fff",
+                  color: "#b82c2c",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
