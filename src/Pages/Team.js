@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Team() {
   return (
     <Container>
-      <div class="section__title text-center">
+      <div class="section__title text-center mt-5">
         <h2 class="section__description">Meet The Management Team</h2>
         <h3 class="section__header">
           Meet the people responsible for the successful completion of your
@@ -26,7 +26,8 @@ export default function Team() {
             <a
               style={{ borderRadius: "100%" }}
               className="btn btn-dark btn-social mx-2"
-              href="https://www.linkedin.com/in/sizwe-mkhabela-90240520a/" target="_blank"
+              href="https://www.linkedin.com/in/sizwe-mkhabela-90240520a/"
+              target="_blank"
               aria-label="Sizwe Mkhabela LinkedIn Profile"
             >
               <i className="fab fa-linkedin-in"></i>
@@ -66,7 +67,8 @@ export default function Team() {
             <a
               style={{ borderRadius: "100%" }}
               className="btn btn-dark btn-social mx-2"
-              href="https://www.linkedin.com/in/greatman-hove-289185a7/" target="_blank"
+              href="https://www.linkedin.com/in/greatman-hove-289185a7/"
+              target="_blank"
               aria-label="Greatman Hove LinkedIn Profile"
             >
               <i className="fab fa-linkedin-in"></i>

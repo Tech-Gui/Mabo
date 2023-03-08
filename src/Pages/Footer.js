@@ -28,7 +28,7 @@ export default function Footer() {
           </li>
         </ul>
         <p className="footer__copyright">
-          &copy; 2022 MABOCAP. All Rights Reserved. <br />
+          &copy; 2023 MABOCAP. All Rights Reserved. <br />
           Developed by
           <a
             className="footer__link twitter-link"
