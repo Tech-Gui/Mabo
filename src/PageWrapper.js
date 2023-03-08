@@ -14,7 +14,7 @@ export default function PageWrapper() {
       expand="lg"
       bg="light"
       variant="light"
-      // style={{ position: "absolute" }}
+      sticky="top"
     >
       <Container>
         <Navbar.Brand href="/">
