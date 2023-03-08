@@ -1,7 +1,22 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [text, setText] = useState("");
+
+  useEffect(() => {
+    const textToType = "Committed to Superior Quality and Results";
+    let i = 0;
+    const typingInterval = setInterval(() => {
+      setText(textToType.slice(0, i));
+      i++;
+      if (i > textToType.length) {
+        clearInterval(typingInterval);
+      }
+    }, 100);
+    return () => clearInterval(typingInterval);
+  }, []);
   return (
     <Container
       style={{
@@ -16,7 +31,7 @@ export default function Home() {
       <div style={{ padding: "2rem" }} className="blurred-background">
         <div className="blurred-text d-flex justify-content-center flex-column ">
           <h1 className="text-center">
-            Committed to <u>Superior</u> <u>Quality</u> and <u>Results</u>
+            {text}
             <br />
           </h1>
           <Container
