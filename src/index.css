@@ -233,6 +233,14 @@ code {
   }
 }
 
+@media (max-width: 992px) {
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    margin-left: -15px;
+  }
+}
+
 .section__title {
   max-width: 80rem;
   margin: 0 auto 8rem auto;
