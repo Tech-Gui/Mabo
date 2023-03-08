@@ -10,6 +10,7 @@ import Team from "./Pages/Team";
 import Footer from "./Pages/Footer";
 import Contact from "./Pages/Contact";
 import Gallery from "./Pages/Gallery";
+import Careers from "./Pages/Careers";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+      <Routes>
+        <Route path="/careers" element={<Careers />} />
       </Routes>
       <Routes>
         <Route path="/" element={<Footer />} />
