@@ -19,10 +19,17 @@ export default function Services() {
         style={{ paddingLeft: "4rem", paddingRight: "4rem" }}
       >
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/p4.jpeg') `,
+              backgroundSize: "cover",
+              textAlign: "center",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -32,7 +39,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+                textAlign: "center",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -50,26 +61,30 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/aa.jpeg') `,
+              backgroundSize: "cover",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -79,7 +94,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+                textAlign: "center",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -97,26 +116,30 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/ph.jpeg') `,
+              backgroundSize: "cover",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -126,7 +149,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                textAlign: "center",
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -144,26 +171,30 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/bm1.jpeg') `,
+              backgroundSize: "cover",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -173,7 +204,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+                textAlign: "center",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -191,26 +226,30 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/cv2.jpeg') `,
+              backgroundSize: "cover",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -220,7 +259,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+                textAlign: "center",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -238,26 +281,30 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
         <Col md={4} className="mb-3">
-          <Card style={{ width: "100%" }}>
+          <Card
+            style={{
+              width: "100%",
+              background: `url('img/bc.jpeg') `,
+              backgroundSize: "cover",
+            }}
+          >
             <Card.Header
               style={{
-                backgroundColor: "#d46a6a",
+                backgroundColor: "rgba(39, 62, 84)",
                 color: "#fff",
                 padding: "1rem",
               }}
@@ -267,7 +314,11 @@ export default function Services() {
             </Card.Header>
             <Card.Body
               className="d-flex justify-content-center flex-column"
-              style={{ textAlign: "center" }}
+              style={{
+                color: "white",
+                background: "rgba(2,2,2,0.5)",
+                textAlign: "center",
+              }}
             >
               <p>
                 <b>Retail</b>
@@ -285,18 +336,16 @@ export default function Services() {
               <Button
                 style={{
                   borderRadius: "0",
-                  background: "none",
+                  backgroundColor: "transparent",
                   borderColor: "#d46a6a",
-                  color: "#d46a6a",
+                  color: "#fff",
                   width: "40%",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  padding: "0rem",
-                  marginBottom: "2rem",
                 }}
               >
                 Learn More
-              </Button>{" "}
+              </Button>
             </Card.Body>
           </Card>
         </Col>
