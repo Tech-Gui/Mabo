@@ -1,8 +1,13 @@
-import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Button, Col, Container, Modal, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
 export default function Services() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCardClick = () => {
+    setShowModal(true);
+  };
   return (
     <>
       <div class="section__title d-flex justify-content-center flex-column">
@@ -59,6 +64,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -114,6 +120,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -169,6 +176,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -224,6 +232,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -279,6 +288,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -334,6 +344,7 @@ export default function Services() {
               </p>
               <br />
               <Button
+                onClick={() => handleCardClick()}
                 style={{
                   borderRadius: "0",
                   backgroundColor: "transparent",
@@ -350,6 +361,23 @@ export default function Services() {
           </Card>
         </Col>
       </Row>
+      <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Service 1</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={() => setShowModal(false)}>Close</Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 }
