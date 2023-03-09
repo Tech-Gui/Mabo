@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import PageWrapper from "./PageWrapper";
 import Home from "./Pages/Home";
