@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section className="page-section" id="about">
       <div className="container">
-        <div class="section__title text-center">
-          <h2 class="section__description">About Us</h2>
-          <h4 class="section__header">
+        <div className="section__title text-center">
+          <h2 className="section__description">About Us</h2>
+          <h4 className="section__header">
             Everything you need to know about Mabocap and more.
           </h4>
         </div>
@@ -131,7 +131,7 @@ export default function About() {
                 </h6>
               </div>
               <div className="timeline-body">
-                <p className="text-muted1">
+                <div className="text-muted1">
                   <ul>
                     <li>
                       Quality and attention to detail – we constantly focus on
@@ -151,7 +151,7 @@ export default function About() {
                       excellence.
                     </li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
           </li>

@@ -2,19 +2,46 @@ import React, { useState } from "react";
 import { Button, Col, Container, Modal, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
+const services = [
+  {
+    name: "Service 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    name: "Service 2",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    name: "Service 3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    name: "Service 4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    name: "Service 5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    name: "Service 6",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+];
 export default function Services() {
   const [showModal, setShowModal] = useState(false);
-
-  const handleCardClick = () => {
+  const [selectedService, setSelectedService] = useState(null);
+  const handleCardClick = (service) => {
+    setSelectedService(service);
     setShowModal(true);
   };
   return (
     <>
-      <div class="section__title d-flex justify-content-center flex-column">
-        <h2 class="section__description text-center" id="services">
+      <div className="section__title d-flex justify-content-center flex-column">
+        <h2 className="section__description text-center" id="services">
           Services
         </h2>
-        <h3 class="section__header text-center mb-5">
+        <h3 className="section__header text-center mb-5">
           Mabocap offers its clients the following services.
         </h3>
       </div>
@@ -30,6 +57,7 @@ export default function Services() {
               backgroundSize: "cover",
               textAlign: "center",
             }}
+            onClick={() => setSelectedService(services[0])}
           >
             <Card.Header
               style={{
@@ -85,6 +113,7 @@ export default function Services() {
               width: "100%",
               backgroundSize: "cover",
             }}
+            onClick={() => setSelectedService(services[1])}
           >
             <Card.Header
               style={{
@@ -140,6 +169,7 @@ export default function Services() {
               width: "100%",
               backgroundSize: "cover",
             }}
+            onClick={() => setSelectedService(services[2])}
           >
             <Card.Header
               style={{
@@ -195,6 +225,7 @@ export default function Services() {
               width: "100%",
               backgroundSize: "cover",
             }}
+            onClick={() => setSelectedService(services[3])}
           >
             <Card.Header
               style={{
@@ -250,6 +281,7 @@ export default function Services() {
               width: "100%",
               backgroundSize: "cover",
             }}
+            onClick={() => setSelectedService(services[4])}
           >
             <Card.Header
               style={{
@@ -305,6 +337,7 @@ export default function Services() {
               width: "100%",
               backgroundSize: "cover",
             }}
+            onClick={() => setSelectedService(services[5])}
           >
             <Card.Header
               style={{
@@ -357,17 +390,9 @@ export default function Services() {
       </Row>
       <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Service 1</Modal.Title>
+          <Modal.Title>{selectedService?.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Modal.Body>
+        <Modal.Body>{selectedService?.description}</Modal.Body>
         <Modal.Footer>
           <Button onClick={() => setShowModal(false)}>Close</Button>
         </Modal.Footer>

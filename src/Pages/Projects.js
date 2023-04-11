@@ -56,11 +56,11 @@ export default function Projects() {
     <Container>
       <Row className="mb-4">
         <Col>
-          <div class="section__title section__title--testimonials text-center">
-            <h2 class="section__description" id="projects">
+          <div className="section__title section__title--testimonials text-center">
+            <h2 className="section__description" id="projects">
               Projects
             </h2>
-            <h3 class="section__header">
+            <h3 className="section__header">
               Below is a list of the current and completed projects.
             </h3>
           </div>

@@ -7,7 +7,7 @@ export default function Footer() {
       <Container className="d-flex flex-column">
         <ul className="footer__nav d-flex flex-wrap">
           <li className="footer__item">
-            <a className="footer__link" a href="About.html">
+            <a className="footer__link" a href="#about">
               About
             </a>
           </li>
@@ -19,11 +19,6 @@ export default function Footer() {
           <li className="footer__item">
             <a className="footer__link" a href="/gallery">
               Gallery
-            </a>
-          </li>
-          <li className="footer__item">
-            <a className="footer__link" a href="#contact">
-              Contact Us
             </a>
           </li>
         </ul>

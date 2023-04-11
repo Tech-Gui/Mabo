@@ -4,9 +4,9 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Team() {
   return (
     <Container>
-      <div class="section__title text-center mt-5">
-        <h2 class="section__description">Meet The Management Team</h2>
-        <h3 class="section__header">
+      <div className="section__title text-center mt-5">
+        <h2 className="section__description">Meet The Management Team</h2>
+        <h3 className="section__header">
           Meet the people responsible for the successful completion of your
           projects.
         </h3>

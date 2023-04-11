@@ -7,9 +7,9 @@ export default function Careers() {
   return (
     <>
       <Container>
-        <div class="section__title text-center mt-5">
-          <h2 class="section__description">MABOCAP CAREERS</h2>
-          <h3 class="section__header">
+        <div className="section__title text-center mt-5">
+          <h2 className="section__description">MABOCAP CAREERS</h2>
+          <h3 className="section__header">
             Your next destination might be with us.
           </h3>
         </div>

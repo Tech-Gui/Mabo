@@ -45,6 +45,17 @@ export default function PageWrapper() {
           >
             <Nav className=" ml-auto " style={{ gap: "1rem" }}>
               <Nav.Link
+                href="/"
+                style={{
+                  color: "#222",
+                  fontSize: "1.2rem",
+                  fontWeight: "400",
+                  marginTop: "1rem",
+                }}
+              >
+                Home
+              </Nav.Link>
+              <Nav.Link
                 href="#about"
                 style={{
                   color: "#222",
@@ -56,7 +67,7 @@ export default function PageWrapper() {
                 About Us
               </Nav.Link>
               <Nav.Link
-                href="#services"
+                href="/services"
                 style={{
                   color: "#222",
                   fontSize: "1.2rem",
@@ -67,7 +78,7 @@ export default function PageWrapper() {
                 Services
               </Nav.Link>
               <Nav.Link
-                href="#projects"
+                href="/gallery"
                 style={{
                   color: "#222",
                   fontSize: "1.2rem",
@@ -77,7 +88,7 @@ export default function PageWrapper() {
               >
                 Projects
               </Nav.Link>
-              <Nav.Link href="#contact">
+              <Nav.Link href="/contact">
                 {" "}
                 <Button
                   style={{
